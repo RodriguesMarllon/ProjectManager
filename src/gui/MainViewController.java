@@ -26,7 +26,7 @@ public class MainViewController implements Initializable{
 	
 	@FXML
 	public void onMenuItemCreateAction() {
-		loadView("/gui/CreateProject.fxml");
+		loadView("/gui/ProjectList.fxml");
 	}
 	
 	@FXML
