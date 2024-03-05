@@ -9,10 +9,7 @@ public class ProjectService {
 
 	public List<Project> findAll() {
 		List<Project> list = new ArrayList<>();
-		list.add(new Project(1, "P001 - Citrosuco - Evaporadores"));
-		list.add(new Project(2, "P002 - COLPAL - PlantSystem Upgrade"));
-		list.add(new Project(3, "P003 - COLPAL - Linhas Frugal"));
-		list.add(new Project(4, "P004 - Ajinomoto - FOOD MES"));
+		list.add(new Project(1, "Teste de nome de projeto", null, null, null, null, null, null, null, null, null));
 		return list;
 	}
 }
