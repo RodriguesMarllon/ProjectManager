@@ -20,14 +20,22 @@ import model.services.ProjectService;
 public class MainViewController implements Initializable{
 
 	@FXML
-	private MenuItem menuItemCreate;
+	private MenuItem menuItemProjetoCreate;
+	
+	@FXML
+	private MenuItem menuItemClienteCreate;
 	
 	@FXML
 	private MenuItem MenuItemAbout;
 	
 	@FXML
-	public void onMenuItemCreateAction() {
+	public void onMenuItemProjetoCreateAction() {
 		loadView2("/gui/ProjectList.fxml");
+	}
+	
+	@FXML
+	public void onMenuItemClienteCreateAction() {
+		System.out.println("onMenuItemClienteCreateAction");
 	}
 	
 	@FXML

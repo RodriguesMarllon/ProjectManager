@@ -12,11 +12,16 @@
 			<children>
 				<MenuBar prefHeight="25.0" prefWidth="565.0">
 					<menus>
-						<Menu mnemonicParsing="false" text="Project">
+						<Menu mnemonicParsing="false" text="Projeto">
 							<items>
-								<MenuItem fx:id="menuItemCreate" mnemonicParsing="false" onAction="#onMenuItemCreateAction" text="Create" />
+								<MenuItem fx:id="menuItemProjetoCreate" mnemonicParsing="false" onAction="#onMenuItemProjetoCreateAction" text="Create" />
 							</items>
 						</Menu>
+                  <Menu mnemonicParsing="false" text="Cliente">
+                    <items>
+                      <MenuItem fx:id="menuItemClienteCreate" mnemonicParsing="false" onAction="#onMenuItemClienteCreateAction" text="Create" />
+                    </items>
+                  </Menu>
 						<Menu mnemonicParsing="false" text="Help">
 							<items>
 								<MenuItem fx:id="MenuItemAbout" mnemonicParsing="false" onAction="#onMenuAboutCreateAction" text="About" />
